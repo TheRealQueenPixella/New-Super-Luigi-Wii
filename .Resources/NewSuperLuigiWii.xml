@@ -1,4 +1,4 @@
-<wiidisc version="1" shiftfiles="true" root="/PropelParts" log="true">
+<wiidisc version="1" shiftfiles="true" root="/NewSuperLuigiWii" log="true">
 	<id game="SMN">
 		<region type="P"/>
 		<region type="E"/>
@@ -8,13 +8,13 @@
 		<region type="C"/>
 	</id>
 	<options>
-		<section name="PropelParts">
-			<option name="Game" id="propelparts" default="1">
-				<choice name="Enabled"><patch id="propelparts"/></choice>
+		<section name="New Super Luigi Wii">
+			<option name="Game" id="nslw" default="1">
+				<choice name="Enabled"><patch id="nslw"/></choice>
 			</option>
 		</section>
 	</options>
-	<patch id="propelparts">
+	<patch id="nslw">
 		<folder external="config" disc="/config" create="true" />
 		<folder external="Code" disc="/Code" create="true" />
 		<folder external="Effect" disc="/Effect" create="true" />
@@ -25,7 +25,7 @@
 		<folder external="Stage" disc="/Stage" create="true" />
 		<folder external="Stage/Texture" disc="/Stage/Texture" create="true" />
 		<folder external="WorldMap" disc="/WorldMap" create="true" />
-                <folder external="Env" disc="/Env" create="true" />
+		<folder external="Env" disc="/Env" create="true" />
 		
 		<folder external="Language/CN" disc="/CN" create="true" recursive="true" />
 		<folder external="Language/EU" disc="/EU" create="true" recursive="true" />

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<game name="PropelParts" description="NSMBW Custom Codebase">
+<game name="New Super Luigi Wii" description="Luigi.">
 
 	<!-- Folders -->
     <folder name="sprites" path="sprites" />
