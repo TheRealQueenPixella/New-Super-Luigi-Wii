@@ -40,6 +40,8 @@
         <folder external="Layout" disc="/TW/Layout/openingTitle"/>
         <folder external="Layout" disc="/US/Layout/openingTitle"/>
 		
+		<file external="LevelInfo.bin" disc="/LevelInfo.bin" create="true"/>
+		
 		<memory offset="0x800046E4" valuefile="Code/loader.bin" />
 		<memory offset="0x800042F4" value="48001158" />
 	</patch>
