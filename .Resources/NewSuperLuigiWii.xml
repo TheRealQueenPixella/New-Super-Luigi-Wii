@@ -44,5 +44,12 @@
 		
 		<memory offset="0x800046E4" valuefile="Code/loader.bin" />
 		<memory offset="0x800042F4" value="48001158" />
+		
+		<!-- Save name change -->
+        <!-- EU -->    <memory offset="0x802F148C" value="4E534C572E73617600" original="7769696D6A3264" />
+        <!-- US -->    <memory offset="0x802F118C" value="4E534C572E73617600" original="7769696D6A3264" />
+        <!-- JP -->    <memory offset="0x802F0FAC" value="4E534C572E73617600" original="7769696D6A3264" />
+        <!-- KR/TW --> <memory offset="0x802F17CC" value="4E534C572E73617600" original="7769696D6A3264" />
+		
 	</patch>
 </wiidisc>
