@@ -27,12 +27,18 @@
 		<folder external="WorldMap" disc="/WorldMap" create="true" />
 		<folder external="Env" disc="/Env" create="true" />
 		
-		<folder external="Language/CN" disc="/CN" create="true" recursive="true" />
-		<folder external="Language/EU" disc="/EU" create="true" recursive="true" />
-		<folder external="Language/JP" disc="/JP" create="true" recursive="true" />
-		<folder external="Language/KR" disc="/KR" create="true" recursive="true" />
-		<folder external="Language/TW" disc="/TW" create="true" recursive="true" />
-		<folder external="Language/US" disc="/US" create="true" recursive="true" />
+		<folder external="Language" disc="/CN" create="true" recursive="true" />
+		<folder external="Language" disc="/EU/EngEU" create="true" recursive="true" />
+		<folder external="Language" disc="/EU/FraEU" create="true" recursive="true" />
+		<folder external="Language" disc="/EU/GerEU" create="true" recursive="true" />
+		<folder external="Language" disc="/EU/ItaEU" create="true" recursive="true" />
+		<folder external="Language" disc="/EU/SpaEU" create="true" recursive="true" />
+		<folder external="Language" disc="/JP" create="true" recursive="true" />
+		<folder external="Language" disc="/KR" create="true" recursive="true" />
+		<folder external="Language" disc="/TW" create="true" recursive="true" />
+		<folder external="Language" disc="/US/EngUS" create="true" recursive="true" />
+		<folder external="Language" disc="/US/FraUS" create="true" recursive="true" />
+		<folder external="Language" disc="/US/SpaUS" create="true" recursive="true" />
 		
 		<folder external="Layout" disc="/EU/Layout/openingTitle"/>
         <folder external="Layout" disc="/JP/Layout/openingTitle"/>
